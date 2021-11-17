@@ -11,8 +11,9 @@ $(() => {
     })
 
     // Toggle Menu button when in mobile mode
-    $("#menu").on("click", () => {
+    $("#menu-button").on("click", () => {
         $("#links").toggle();
+        $(".fas").toggleClass("fa-bars fa-times");
     })
 
 

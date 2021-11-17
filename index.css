@@ -29,9 +29,15 @@ nav #menu-area {
     padding: 20px;
 }
 
-nav #menu {
+nav #menu-button {
     cursor: pointer;
+    width: 2rem;
+    height: 2rem;
     padding: 4px;
+}
+
+nav #menu-button .fas {
+    font-size: 1.4x em;
 }
 nav #links {
     display: flex;
@@ -56,7 +62,7 @@ nav #links a:hover {
         flex-direction: row;
         padding: 10px;
     }
-    nav #menu {
+    nav #menu-button {
         display: none;
     }
     nav #links {
