@@ -8,6 +8,7 @@ header {
     width: 100vw;
     height: 100vh;
 }
+
 nav {
     background-color: rgb(49, 49, 49);
     color: white;
@@ -27,6 +28,7 @@ nav #menu-area {
     align-items: center;
     justify-content: center;
     padding: 20px;
+    /* margin-right: 0.6em; */
 }
 
 nav #menu-button {
@@ -34,10 +36,15 @@ nav #menu-button {
     width: 2rem;
     height: 2rem;
     padding: 4px;
+    border: none;
+    background-color:rgb(49, 49, 49);
+    outline: 1px solid white;
+    color: white;
 }
 
 nav #menu-button .fas {
     font-size: 1.4x em;
+    color: white;
 }
 nav #links {
     display: flex;
@@ -52,10 +59,6 @@ nav #links a {
     color: inherit;
 }
 
-nav #links a:hover {
-    background-color: rgb(136, 132, 132);
-    color: white;
-}
 
 @media (min-width: 700px) {
     nav {
@@ -72,6 +75,11 @@ nav #links a:hover {
     nav #links a {
         display: initial;
         width: initial;
+    }
+    
+    nav #links a:hover {
+        background-color: rgb(49, 49, 49);
+        color: white ;
     }
     hr {
         display: none;
